@@ -52,7 +52,7 @@ export default function Home({ exploreData, cardsData }) {
 }
 
 export async function getStaticProps() {
-  const exploreData = await fetch("https://www.jsonkeeper.com/b/3XOF").then((res) => res.json());
+  const exploreData = await fetch("https://www.jsonkeeper.com/b/2GF8").then((res) => res.json());
 
   const cardsData = await fetch("https://www.jsonkeeper.com/b/EDN3").then((res) => res.json());
 
